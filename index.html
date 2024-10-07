@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script/script.js" defer></script>
+    <script src="./script/config.js" defer></script>
+    <script src="./script/main.js" defer></script>
+    <title>APPLICATION DACTYLO AZERTYPE</title>
+</head>
+<body>
+    <header>
+        <h1>AZERTYPE</h1>
+        <p>Application pour apprendre rapidement la dactylographie sur l'ordinateur.</p>
+    </header>
+
+    <main>
+        <div class="background">
+            <p>
+                Voulez-vous choisir entre les mots ou les phrases ?
+            </p>
+             <div class="inputRadio">
+                <label for="mot">Mots</label>
+                <input type="radio" name="choisis" id="mot">
+                <label for="phrase">Phrase</label>
+                <input type="radio" name="choisis" id="phrase">
+             </div>
+
+             <div class="copieUtilisateur">
+                Azertype
+             </div>
+
+             <div class="inputEcriture">
+                <input type="text" name="text" id="inputEcriture">
+                <button id="btnValidation">Valider</button>
+             </div>
+            <div class="votreScore">
+                score :<span id="spanScore">0</span>
+            </div>
+             <div class="btnPartager">
+                <button id="btnPartager">Partager</button>
+             </div>
+        </div>
+    </main>
+
+    <footer>
+        Copie :  <a href="#">   dactylographie.danio@studentécriturerapide</a>
+    </footer>
+</body>
+</html>
