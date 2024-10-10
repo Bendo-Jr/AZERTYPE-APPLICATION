@@ -147,8 +147,7 @@ a {
 }
 
 .backround-popup {
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
 .popup {
@@ -171,13 +170,21 @@ form {
 input {
     width: 70%;
     height: 30px;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
 }
 label {
 display: block;
 margin: 0.7rem auto;
 font-size: 1.3rem;
+
 }
 }
+/* .active {
+    display: flex;
+    align-items: center;
+} */
 #btnenvoyer {
     padding: 0.5rem;
     margin: 1.5rem 2rem;
