@@ -12,7 +12,7 @@ body {
 
 header {
     padding: 1.8rem;
-    margin: auto;
+    margin: 0 auto;
 
 h1 {
     display: flex;
@@ -146,6 +146,45 @@ a {
 }
 }
 
+.backround-popup {
+    display: flex;
+    align-items: center;
+}
+
+.popup {
+    position: absolute;
+    background: #1c6d04;
+    width: 30%;
+    height: 300px;
+    left: 35%;
+    top: 35%;
+    border-radius: 30px;
+  h2 {
+    text-align: center;
+    padding: 1rem 0;
+  }  
+}
+form {
+    display: block;
+    text-align: center;
+
+input {
+    width: 70%;
+    height: 30px;
+}
+label {
+display: block;
+margin: 0.7rem auto;
+font-size: 1.3rem;
+}
+}
+#btnenvoyer {
+    padding: 0.5rem;
+    margin: 1.5rem 2rem;
+    font-size: 1.3rem;
+}
+
+
 
 @media (max-width: 833px) {
     header p {
@@ -190,3 +229,4 @@ a {
         padding: 0.2rem;
     }
 }
+

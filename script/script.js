@@ -1,6 +1,6 @@
 function afficherResultat(score, nbMotsProposes) {
     // Récupération de la zone dans laquelle on va écrire le score
-    let spanScore = document.getElementById("spanScore ")
+    let spanScore = document.getElementById("spanScore")
     // Ecriture du texte
     let affichageScore = `${score} / ${nbMotsProposes}` 
     // On place le texte à l'intérieur du span. 
@@ -9,7 +9,7 @@ function afficherResultat(score, nbMotsProposes) {
 
 function lancerJeu() {
     let score = 0
-    let motsPropose = 0;
+    
 
     let inputEcriture = document.getElementById('inputEcriture');
 inputEcriture.addEventListener('keydown', (event) => {
