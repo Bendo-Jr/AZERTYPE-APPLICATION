@@ -14,3 +14,5 @@ btnQuiter.addEventListener('click', () => {
     nom.value = ''
     email.value = ''
 })
+
+// 
