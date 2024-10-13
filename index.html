@@ -23,9 +23,9 @@
             </p>
              <div class="inputRadio">
                 <label for="mot">Mots</label>
-                <input type="radio" name="choisis" id="mot">
+                <input type="radio" name="choisis" id="mot" value="1" checked>
                 <label for="phrase">Phrase</label>
-                <input type="radio" name="choisis" id="phrase">
+                <input type="radio" name="choisis" id="phrase" value="2">
              </div>
 
              <div class="zoneProposition">
@@ -55,8 +55,8 @@
             <form action="" method="get">
                 
                 <label for="nom">Votre nom</label>
-                <input type="text" id="nom" placeholder="Votre nom">
-                <label for="email">Avec qui voulez-vous partager votre score</label>
+                <input type="text" id="nom" value="" placeholder="Votre nom">
+                <label for="email" id="mail">Avec qui voulez-vous partager votre score</label>
                 <input type="email" name="email" id="email" placeholder="nom@domain.com">
                 <br><button id="btnenvoyer" class="btnQuiter">Quitter</button>
                 <button id="btnenvoyer">Envoyer</button>

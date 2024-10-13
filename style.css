@@ -191,7 +191,49 @@ font-size: 1.3rem;
     font-size: 1.3rem;
 }
 
+@media (max-width: 808px) {
+    .popup h2 {
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1rem;
+      }  
+      #btnenvoyer {
+       width: 32%;
+       font-size: 1rem;
+       margin: 0;
+    }
 
+    
+}
+
+@media (max-width: 1314px) {
+    #mail {
+        font-size: 1rem;
+    }
+    #btnenvoyer {
+        padding: 0.5rem;
+        margin: 1rem 1rem;
+        font-size: 1.1rem;
+    }
+    
+        
+}
+@media (max-width: 770px) {
+    #btnenvoyer {
+        width: 30%;
+        font-size: 0.8rem;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .popup button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+}
 
 @media (max-width: 833px) {
     header p {

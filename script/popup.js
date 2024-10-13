@@ -15,4 +15,9 @@ btnQuiter.addEventListener('click', () => {
     email.value = ''
 })
 
-// 
+// teste 
+
+let nomUtilisateur = document.getElementById('nom')
+nomUtilisateur.addEventListener('change', () => {
+    console.log(nom.value)
+})
