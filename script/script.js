@@ -1,5 +1,6 @@
 let motsPropose = ["application", "dactylo", "rapide", "valeur", 'fruit', 'magnifique', 'cool', 'pouvoir', 'content', 'ma', 'seul', 'plan'];
-let phrasePropose = ["je suis content", 'tu es content', 'il est content', 'elle content', 'nous contons', 'vous contez', 'ils content', 'elles content']
+let phrasePropose = ["je suis content", 'tu es content', 'il est content', 'elle est content', 'nous sommes content', 'vous êtes content', 
+    'ils sont content', 'elles sont content']
 
 function afficherResultat(score, nbMotsProposes) {
     // Récupération de la zone dans laquelle on va écrire le score
