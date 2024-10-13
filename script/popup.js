@@ -15,9 +15,17 @@ btnQuiter.addEventListener('click', () => {
     email.value = ''
 })
 
-// teste 
+// arrêttez comportement par défaut 
 
-let nomUtilisateur = document.getElementById('nom')
-nomUtilisateur.addEventListener('change', () => {
-    console.log(nom.value)
+let form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
+     event.preventDefault();
+     console.log("Il n’y a pas eu de rechargement de page");
+     let baliseNom = document.getElementById('nom');
+     let nom = baliseNom.value
+     let baliseEmail = document.getElementById('email')
+     let email = baliseEmail.value
+     console.log(nom, email)
+
 })
+
